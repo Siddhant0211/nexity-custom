@@ -43,7 +43,7 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-doctype_js = {"Material Request": "public/js/material_request.js"}
+# doctype_js = {"Material Request": "public/js/material_request.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -176,11 +176,11 @@ doctype_js = {"Material Request": "public/js/material_request.js"}
 # ---------------
 # Hook on document methods and events
 
-doc_events = {
-	"Material Request": {
-		"before_submit": "nexity_customization.nexity_customization.overrides.material_request.before_submit"
-	}
-}
+# doc_events = {
+# 	"Material Request": {
+# 		"before_submit": "nexity_customization.nexity_customization.overrides.material_request.before_submit"
+# 	}
+# }
 
 # Scheduled Tasks
 # ---------------
